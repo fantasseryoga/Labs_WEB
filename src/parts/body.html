@@ -1,0 +1,253 @@
+<div class="sidenav">
+    <div class="recurring-payments text-light pl-3 pr-3">
+        <h5 class="mt-5 mb-4"> Recurring Payments </h5>
+        <div class="payment d-flex mb-4">
+            <img src="img/calendar.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                Utility Bill
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing eli
+                </span>
+                <br />
+                186,00 TL
+            </div>
+        </div>
+        <div class="payment d-flex mb-4">
+            <img src="img/calendar.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                House Rent
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    Lorem ipsum dolor
+                </span>
+                <br />
+                186,00 TL
+            </div>
+        </div>
+        <div class="payment d-flex">
+            <img src="img/calendar.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                Phone Bill
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    Lorem ipsum dolor sit amet, consectetur
+                </span>
+                <br />
+                186,00 TL
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="recent-transactions text-light pl-3 pr-3">
+        <h5 class="mt-5 mb-4"> Recent Transactions </h5>
+        <div class="transaction d-flex mb-4">
+            <img src="img/transaction.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                Starbucks
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    12,00 TL
+                </span>
+            </div>
+        </div>
+        <div class="transaction d-flex mb-4">
+            <img src="img/transaction.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                Salary
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    12,000,00 TL
+                </span>
+            </div>
+        </div>
+        <div class="transaction d-flex mb-4">
+            <img src="img/transaction.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                McDonalda
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    23,00 TL
+                </span>
+            </div>
+        </div>
+        <div class="transaction d-flex mb-4">
+            <img src="img/transaction.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                Lviv Croissants
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    45,00 TL
+                </span>
+            </div>
+        </div>
+        <div class="transaction d-flex mb-4">
+            <img src="img/transaction.png" alt="" width="50" height="50" class="mr-2">
+            <div class="payment-text">
+                CROPP
+                <br />
+                <span class="text-muted mb-2 mt-2">
+                    2309,00 TL
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container section-1">
+    <div class="row">
+        <div class="col-lg-7">
+            <div class="balance">
+                <div class="card text-light">
+                    <div class="card-header d-flex">
+                        <h4 class="mt-2 font-weight-light"> Balance </h4>
+                        <nav class="ml-auto">
+                                <div class="nav nav-tabs">
+                                    <button onclick=showFunction(this.id) id="btn-1" class="nav-link-balance nav-link text-light bg-bg">TL</button>
+                                    <button onclick=showFunction(this.id) id="btn-2" class="nav-link-balance nav-link text-light bg-bg">EURO</button>
+                                    <button onclick=showFunction(this.id) id="btn-3" class="nav-link-balance nav-link text-light bg-bg">USD</button>
+                                </div>
+                        </nav>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="btn-1-tab" role="tabpanel" aria-labelledby="nav-home-tab"><img src="img/endgraph-2.png" class="img-fluid" alt=""></div>
+                            <div class="tab-pane fade" id="btn-2-tab" role="tabpanel" aria-labelledby="nav-profile-tab"><img src="img/endgraph-1.png" class="img-fluid" alt=""></div>
+                            <div class="tab-pane fade" id="btn-3-tab" role="tabpanel" aria-labelledby="nav-contact-tab"><img src="img/endgraph-3.png" class="img-fluid" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="tl-euro-usd d-flex justify-content-between">
+                            <li class="balance-first-li d-flex">TL 
+                                <progress max="100" value="25">
+                                </progress>
+                            </li>
+                            <li class="balance-second-li d-flex">EURO
+                                <progress max="100" value="55">
+                                </progress>
+                            </li>
+                            <li class="balance-third-li d-flex">USD
+                                <progress max="100" value="33">
+                                </progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="loan mt-4">
+                <div class="card text-light">
+                    <div class="card-header d-flex">
+                        <h4 class="mt-2 font-weight-light"> Loan Calculator</h4>
+                        <nav class="ml-auto">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link text-light bg-bg" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home">Consumer Loan</button>
+                                <button class="nav-link text-light bg-bg" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile">Auto Loan</button>
+                                <button class="nav-link text-light bg-bg" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact">Mortgage</button>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="card-body d-flex">
+                      <div class="loan-60">
+                            <div class="loan-60-loan d-flex flex-column">
+                                <span class="text-muted">Loan Amounts</span>
+                                <progress max="100" value="33">
+                                </progress>
+                            </div>
+                            <div class="loan-60-loan d-flex flex-column">
+                                <span class="text-muted">Term</span>
+                                <progress max="100" value="70">
+                                </progress>
+                            </div>
+                            <div class="loan-60-loan d-flex flex-column mb-0">
+                                <span class="text-muted">Installment Amount</span>
+                                <progress max="100" value="1">
+                                </progress>
+                            </div>
+                      </div>
+                      <div class="loan-40 ml-4">
+                            <div class="loan-40-loan text-muted d-flex">
+                                Per Annum Rate
+                                <h5 class="text-light text-right mt-3 ml-auto">1,55%</h5>
+                            </div>
+                            <div class="loan-40-loan text-muted d-flex">
+                                Total Cost
+                                <h5 class="text-light text-right mt-3 ml-auto">608,00 TL</h5>
+                            </div>
+                            <div class="loan-40-loan text-muted d-flex">
+                                Paylock
+                                <h5 class="text-light text-right mt-3 ml-auto">159,000.00 TL</h5>
+                            </div>
+                            <div class="payment-plan d-flex">
+                                <span class="text-primary">Payment Plan</span>
+                                <button type="button" class="btn btn-outline-primary ml-auto text-light">Recent</button>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="card text-light">
+                <h4 class="card-header font-weight-light">Credit Cards</h4>
+                <div class="card-body">
+                    <div class="carousel">
+                        <div class="owl-carousel owl-theme text-light mt-4">
+                            <div class="item">
+                                <img src="img/card_2.png" alt="" class="img-fluid">
+                                <div class="credit-card-item d-flex mt-5">
+                                    <span class="text-muted">Current Debt</span>
+                                    <h5 class="text-light text-right ml-auto">140,000.00 TL</h5>
+                                </div>
+                                <div class="credit-card-item d-flex mt-4">
+                                    <span class="text-muted">Credit Abailable</span>
+                                    <h5 class="text-light text-right ml-auto">8,000.00 TL</h5>
+                                </div>
+                                <div class="credit-card-item d-flex mt-4">
+                                    <span class="text-muted">Cut off Date</span>
+                                    <h6 class="text-primary ml-auto">03.05.2021</h6>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/card_1.png" alt="" class="img-fluid">
+                                <div class="credit-card-item d-flex mt-5">
+                                    <span class="text-muted">Current Debt</span>
+                                    <h5 class="text-light text-right ml-auto">14,000.00 TL</h5>
+                                </div>
+                                <div class="credit-card-item d-flex mt-4">
+                                    <span class="text-muted">Credit Abailable</span>
+                                    <h5 class="text-light text-right ml-auto">77,000.00 TL</h5>
+                                </div>
+                                <div class="credit-card-item d-flex mt-4">
+                                    <span class="text-muted">Cut off Date</span>
+                                    <h6 class="text-primary ml-auto">13.11.2013</h6>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/card_3.png" alt="" class="img-fluid">
+                                <div class="credit-card-item d-flex mt-5">
+                                    <span class="text-muted">Current Debt</span>
+                                    <h5 class="text-light text-right ml-auto">69,000.00 TL</h5>
+                                </div>
+                                <div class="credit-card-item d-flex mt-4">
+                                    <span class="text-muted">Credit Abailable</span>
+                                    <h5 class="text-light text-right ml-auto">13,000.00 TL</h5>
+                                </div>
+                                <div class="credit-card-item d-flex mt-4">
+                                    <span class="text-muted">Cut off Date</span>
+                                    <h6 class="text-primary ml-auto">02.04.2022</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards-btns d-flex">
+                            <button type="button" class="btn btn-outline-primary text-light pl-5 pr-5">Pay the Debt</button>
+                            <button type="button" id="button-activity" class="btn btn-outline-primary text-light ml-auto pr-5 pl-5">Activity</button>
+                        </div>
+                        <div id="future-carousel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="users">
+            </div>
+        </div>
+    </div>
+</div>

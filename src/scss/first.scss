@@ -1,0 +1,120 @@
+$blue-grey : #253343;
+$blue-grey-dark: #1f2833;
+$another-blue: #222d38;
+$more-blue: #202933;
+
+.bg-bg{
+    background-color: $blue-grey !important;
+}
+
+ nav{
+     background-color: $blue-grey;
+ }
+ nav{
+     form{
+         input{
+             background-color: $blue-grey !important; 
+             border: 1px $blue-grey solid !important;
+         }
+     }
+ }
+ .logo{
+    filter: invert(1);
+ }
+
+ body{
+     background-color: $blue-grey-dark;
+ }
+
+ .section-1{
+     margin-top: 80px;
+ }
+
+ .card-footer, .card-header{
+     background-color: $blue-grey;
+ }
+
+ .card-body{
+     background-color: $another-blue;
+ }
+
+ .card{
+     border: none;
+ }
+
+.tl-euro-usd{
+     text-transform: none;
+     text-decoration: none;
+}
+ 
+.tl-euro-usd{
+     li{
+         list-style-type: none;
+     }
+}
+
+li{
+    progress {
+    width: 100px;
+    margin-top: 3px;
+    margin-left: 10px;
+    }
+}
+
+.loan-60{
+    width: 60%;
+    .loan-60-loan{
+        margin-bottom: 30px;
+        
+    }
+    progress{
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.loan-40{
+    width: 40%;
+    .loan-40-loan{
+        background-color: $more-blue;
+        margin-bottom: 10px;
+    }
+}
+
+.payment-plan{
+    .btn{
+        border-radius: 30px !important;
+        margin-left: auto;
+    }
+}
+.person-contact{
+    background-color: $another-blue;
+    margin-top: 23px;
+    padding: 10px 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: $blue-grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.cards-btns{
+    .btn{
+        border-radius: 20px;
+    }
+}
+
+.contact-us{
+    margin-right: 280px;
+}
+
+.circle-png{
+    width: 50px !important;
+}

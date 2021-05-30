@@ -1,0 +1,85 @@
+h1{
+    text-transform: uppercase;
+}
+
+@media (max-width: 1640px){
+    .sidenav{
+        display: none;
+    }
+    .contact-us{
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 1200px){
+    .cards-btns{
+        .btn{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .loan{
+        margin-bottom: 20px;
+    }
+    .user{
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 768px){
+    .loan{
+        .nav{
+            display: inline !important;
+            button{
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 660px){
+    .tl-euro-usd{
+        display: inline !important;
+        progress{
+            width: 100%;
+        }
+    }
+    footer{
+        h4{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 450px){
+    footer{
+        h4{
+            font-size: 12px;
+        }
+    }   
+    .loan{
+        .card-body{
+            display: inline !important;
+            .loan-60{
+                width: 100%;
+            }
+            .loan-40{
+                margin-left: 0 !important;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 340px){
+    .balance{
+        nav{
+            .nav{
+                display: inline !important;
+            }
+        }
+    }
+}

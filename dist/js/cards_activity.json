@@ -1,0 +1,62 @@
+[
+    {
+        "card": "1234 5678 9876 5432",
+        "activity": [
+            {
+                "place": "McDonalds",
+                "sum": "127 TL",
+                "date": "08-15-2021"
+            },
+            {
+                "place": "Chelentano",
+                "sum": "132 TL",
+                "date": "08-19-2021"
+            },
+            {
+                "place": "CROPP",
+                "sum": "2376 TL",
+                "date": "07-01-2021"
+            }
+        ]
+    },
+    {
+        "card": "4564 0000 0000 0000",
+        "activity": [
+            {
+                "place": "Amazon", 
+                "sum": "4653 TL",
+                "date": "07-11-2021"
+            },
+            {
+                "place": "Silpo",
+                "sum": "931 TL",
+                "date": "08-12-2021"
+            },
+            {   
+                "place": "CROPP", 
+                "sum": "13 TL",
+                "date": "08-17-2021"
+            }
+        ]
+    },
+    {
+        "card": "5412 1234 5678 9010",
+        "activity": [
+            {
+                "place": "Tos",
+                "sum": "2500 TL",
+                "date": "07-08-2021"
+            },
+            {
+                "place": "Ashan",
+                "sum": "14 TL",
+                "date": "08-21-2021"
+            },
+            {
+                "place": "Eldorado",
+                "sum": "11000 TL",
+                "date": "06-30-2021"
+            }
+        ]
+    }
+]
